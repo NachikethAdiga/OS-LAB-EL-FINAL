@@ -58,7 +58,7 @@ int main() {
     // Free mem3
     //my_free((void**)&mem3);
 
-    // Accessing freed memory
+    
     if (mem3 != NULL) {
         *mem3 = 10;
         printf("No memory leak detected: not accessing freed memory\n");
